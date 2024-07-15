@@ -20,8 +20,15 @@ const Hero = () => {
                 </div>
             </div>
             <div className="grid grid-cols-2 ">
-                <div>
-                    <h1 className="text-3xl text-gray-800 text-center  my-auto sen">Welcome to the best cafe</h1>
+                <div className="text-center">
+                    <h1 className="text-2xl text-gray-800 text-center  my-auto sen font-bold mt-10">Madison Location</h1>
+                    <hr className="mx-28 rounded border-2 border-orange-300 mb-5"/>
+                    <h1 className="text-xl text-gray-800 text-left ml-10 my-auto sen"> 719 Hilldale Way, Madison, WI 53705</h1>
+                    <h1 className="text-2xl text-gray-800 text-left ml-10 my-auto sen font-bold mt-3">Hours</h1>
+                    <h1 className="text-xl text-gray-800 text-left ml-10 my-auto sen">MON-SAT 7am - 8pm</h1>
+                    <h1 className="text-xl text-gray-800 text-left ml-10 my-auto sen">SUNDAY 7am - 6pm</h1>
+                    <h1 className="text-xl text-gray-800 text-left ml-10 my-auto sen mt-5">Full coffee + espresso menu.</h1>
+                    <button className="py-3 px-5 sen bg-orange-300">GET DIRECTIONS</button>
                 </div>
                 <div className="">
                     <img src={coffee} alt="coffee" className="w-full object-cover"/>
