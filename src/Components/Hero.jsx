@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="text-center 2xl:my-10">
                     <h1 className="text-3xl text-gray-800 text-center my-auto sen font-bold mt-10 2xl:mt-14">THE LATEST</h1>
                     <hr className="mx-28 xl:mx-60 rounded border-2 border-orange-300 md:mb-5 2xl:mb-14 xl:mt-2"/>
-                    <h1 className="text-xl text-gray-800 text-center 2xl:ml-20 my-auto sen"> CHECK OUR MENU • </h1>
+                    <h1 className="text-xl text-gray-800 text-center my-auto sen"> CHECK OUR MENU • </h1>
                     <button className="py-3 px-5 sen bg-orange-300 xl:text-xl md:mt-5">Menu</button>
                     <h1 className="text-xl text-gray-800 text-left md:ml-10 xl:ml-20 my-auto sen mt-10">COFFEE + ESPRESSO CATERING • </h1>
                     <h1 className="text-xl text-gray-800 text-left md:ml-10 xl:ml-20 my-auto sen">Now booking 2024!</h1>
