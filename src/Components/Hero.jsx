@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="">
             <Navbar className=""/>
             <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover"/>
-            <div className="grid grid-cols-2 ">
+            <div className="grid md:grid-cols-2 grid-cols-1">
                 <div className="">
                     <img src={barista} alt="barista" className="w-full h-full object-cover"/>
                 </div>
@@ -25,7 +25,7 @@ const Hero = () => {
                     <h1 className="text-xl text-orange-400 text-center  my-auto sen md:mt-2 xl:mt-8 2xl:mb-12 underline">Learn More</h1>
                 </div>
             </div>
-            <div className="grid grid-cols-2 ">
+            <div className="grid md:grid-cols-2 grid-cols-1">
                 <div className="text-center xl:my-10">
                     <h1 className="text-3xl text-gray-800 text-center  my-auto sen font-bold mt-10 xl:mt-14">Madison Location</h1>
                     <hr className="mx-28 xl:mx-60 rounded border-2 border-orange-300 md:mb-5 xl:mb-14 xl:mt-2"/>
