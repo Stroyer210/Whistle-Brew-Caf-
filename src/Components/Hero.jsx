@@ -5,12 +5,21 @@ import Navbar from './Navbar';
 import barista from "./../Images/hero.avif"
 import coffee from "./../Images/coffee.avif"
 import main from "./../Images/main.avif"
+import { CiCoffeeCup } from "react-icons/ci";
+import { MdCoffeeMaker } from "react-icons/md";
+import { GiCoffeeCup } from "react-icons/gi";
+import { SiBuymeacoffee } from "react-icons/si";
 
 const Hero = () => {
     return (
         <div className="">
             <Navbar className=""/>
-            <h1 className=" text-2xl z-50 top-1/2 absolute right-1/3 text-white text-shadow sen">This is more than a bakery</h1>
+            <h1 className="col-start-2 text-6xl z-50 top-1/2 mineRight absolute text-white text-shadow sen">Brewing Happiness One Cup at a Time</h1>
+            <h1 className=" text-6xl z-50 mineTop absolute mineRight2 text-white text-shadow sen">"Sip, Savor, Smile"</h1>
+            <CiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-1/3 right-1/4 "/>
+            <MdCoffeeMaker className="iconsL absolute z-50 text-7xl text-white top-2/3 right-3/4 -rotate-12"/>
+            <GiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-2/3 right-1/4 -rotate-12"/>
+            <SiBuymeacoffee className="iconsL absolute z-50 text-7xl text-white top-1/3 right-3/4 rotate-12"/>
             <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover z-10"/>
             <div className="grid md:grid-cols-2 grid-cols-1">
                 <div className="">

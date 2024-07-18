@@ -49,3 +49,49 @@ header .nav-btn {
         right: 4rem;
     }
 }
+
+.mineTop{
+    top: 60%;
+}
+
+.mineRight{
+    right:20%;
+    left:20%
+}
+
+.mineRight2{
+    right:29%;
+    left:36%
+}
+
+.iconsL{
+    animation: iconsL 3s infinite;
+}
+
+.iconsR{
+    animation: iconsR 3s infinite;
+}
+
+@keyframes iconsL {
+    0% {
+        transform: rotate(-20deg);
+      }
+      50% {
+        transform: rotate(20deg);
+      }
+      100% {
+        transform: rotate(-20deg);
+      }
+  }
+
+@keyframes iconsR {
+    0% {
+        transform: rotate(20deg);
+      }
+      50% {
+        transform: rotate(-20deg);
+      }
+      100% {
+        transform: rotate(20deg);
+      }
+}
