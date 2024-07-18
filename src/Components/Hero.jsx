@@ -9,13 +9,30 @@ import { CiCoffeeCup } from "react-icons/ci";
 import { MdCoffeeMaker } from "react-icons/md";
 import { GiCoffeeCup } from "react-icons/gi";
 import { SiBuymeacoffee } from "react-icons/si";
+import { TypeAnimation } from 'react-type-animation'
 
 const Hero = () => {
     return (
         <div className="">
             <Navbar className=""/>
             <h1 className="col-start-2 text-6xl z-50 top-1/2 mineRight absolute text-white text-shadow sen">Brewing Happiness One Cup at a Time</h1>
-            <h1 className=" text-6xl z-50 mineTop absolute mineRight2 text-white text-shadow sen">"Sip, Savor, Smile"</h1>
+            <TypeAnimation className=" text-6xl z-50 mineTop absolute mineRight2 text-white text-shadow sen"
+                sequence={[
+                    '"Sip, Savor, Smile"',
+                    3000,
+                    '"Brew, Relax, Repeat"',
+                    3000,
+                    '"Fresh, Warm, Cozy"',
+                    3000,
+                    '"Gather, Sip, Smile"',
+                    3000,
+                    '"Roast, Brew, Delight"',
+                    3000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat= {Infinity}
+                />
             <CiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-1/3 right-1/4 "/>
             <MdCoffeeMaker className="iconsL absolute z-50 text-7xl text-white top-2/3 right-3/4 -rotate-12"/>
             <GiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-2/3 right-1/4 -rotate-12"/>
