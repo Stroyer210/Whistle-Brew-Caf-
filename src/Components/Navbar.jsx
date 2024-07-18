@@ -20,10 +20,10 @@ const Navbar = () => {
                 </div>
                 <nav ref={navRef} className="text-white text-shadow sen">
                     <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">HOME</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">COFFEE</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">EXPRESSO</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">TEA</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">BAKERY</Link>
+                    <Link to="/Coffee" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">COFFEE</Link>
+                    <Link to="/Expresso" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">EXPRESSO</Link>
+                    <Link to="/Tea" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">TEA</Link>
+                    <Link to="/Bakery" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">BAKERY</Link>
                     <button onClick={showNavbar} className="nav-btn nav-close-btn">
                         <FaTimes/>
                     </button>
