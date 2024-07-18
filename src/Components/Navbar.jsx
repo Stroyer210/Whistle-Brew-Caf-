@@ -15,15 +15,15 @@ const Navbar = () => {
     return (
         <header className=" mt-10 p-5 text-4xl font-bold bg-transparent absolute w-full z-50">
             <div className="flex justify-between items-center">
-                <div className="ml-40">
+                <div className="mx-40">
                     <h1 className=" text-gray-200 text-shadow sen lg:mr-40 xl:mr-40 2xl:mr-72">Whistle & Brew Café</h1>
                 </div>
                 <nav ref={navRef} className="text-white text-shadow sen">
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">Main</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">Coffee</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">Expresso</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">Tea</Link>
-                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">Bakery</Link>
+                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">HOME</Link>
+                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">COFFEE</Link>
+                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">EXPRESSO</Link>
+                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">TEA</Link>
+                    <Link to="/" className=" mr-10 lg:mr-20 cursor-pointer hover:text-yellow-600">BAKERY</Link>
                     <button onClick={showNavbar} className="nav-btn nav-close-btn">
                         <FaTimes/>
                     </button>

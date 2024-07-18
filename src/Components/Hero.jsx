@@ -10,7 +10,8 @@ const Hero = () => {
     return (
         <div className="">
             <Navbar className=""/>
-            <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover"/>
+            <h1 className=" text-2xl z-50 top-1/2 absolute right-1/3 text-white text-shadow sen">This is more than a bakery</h1>
+            <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover z-10"/>
             <div className="grid md:grid-cols-2 grid-cols-1">
                 <div className="">
                     <img src={barista} alt="barista" className="w-full h-full object-cover"/>
