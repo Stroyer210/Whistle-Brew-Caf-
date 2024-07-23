@@ -37,9 +37,12 @@ const Hero = () => {
             <MdCoffeeMaker className="iconsL absolute z-50 text-7xl text-white top-2/3 right-3/4 -rotate-12"/>
             <GiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-2/3 right-1/4 -rotate-12"/>
             <SiBuymeacoffee className="iconsL absolute z-50 text-7xl text-white top-1/3 right-3/4 rotate-12"/>
+            {/* <p className="absolute bg-white circle z-20 rounded-full -right-72 -bottom-96"></p> */}
+            {/* <p className="absolute bg-white circle z-20 rounded-full -left-72 -top-96"></p> */}
             <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover z-10"/>
+            
             <div className="grid md:grid-cols-2 grid-cols-1">
-                <div className="">
+                <div className=" z-40">
                     <img src={barista} alt="barista" className="w-full h-full object-cover"/>
                 </div>
                 <div className="text-center 2xl:my-10">

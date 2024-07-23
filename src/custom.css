@@ -95,3 +95,8 @@ header .nav-btn {
         transform: rotate(20deg);
       }
 }
+
+.circle{
+    width:1000px;
+    height:1000px;
+}
