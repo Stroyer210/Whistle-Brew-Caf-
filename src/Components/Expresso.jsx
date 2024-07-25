@@ -10,6 +10,7 @@ const Expresso = () => {
             <Navbar className=""/>
             <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover z-10"/>
             <h1 className="col-start-2 text-6xl z-50 top-1/2 mineRight absolute text-white text-shadow sen">hello expresso</h1>
+            <p>expresos here</p>
             <Footer />
         </div>
     )
