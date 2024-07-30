@@ -15,8 +15,8 @@ const Hero = () => {
     return (
         <div className="">
             <Navbar className=""/>
-            <h1 className="col-start-2 text-6xl z-50 top-1/2 mineRight absolute text-white text-shadow sen">Brewing Happiness One Cup at a Time</h1>
-            <TypeAnimation className=" text-6xl z-50 mineTop absolute mineRight2 text-white text-shadow sen"
+            <h1 className="col-start-2 text-6xl z-40 top-1/2 mineRight absolute text-white text-shadow sen">Brewing Happiness One Cup at a Time</h1>
+            <TypeAnimation className=" text-6xl z-40 mineTop absolute mineRight2 text-white text-shadow sen"
                 sequence={[
                     '"Sip, Savor, Smile"',
                     3000,
@@ -33,10 +33,10 @@ const Hero = () => {
                 speed={50}
                 repeat= {Infinity}
                 />
-            <CiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-1/3 right-1/4 "/>
-            <MdCoffeeMaker className="iconsL absolute z-50 text-7xl text-white top-2/3 right-3/4 -rotate-12"/>
-            <GiCoffeeCup className="iconsR absolute z-50 text-7xl text-white top-2/3 right-1/4 -rotate-12"/>
-            <SiBuymeacoffee className="iconsL absolute z-50 text-7xl text-white top-1/3 right-3/4 rotate-12"/>
+            <CiCoffeeCup className="iconsR absolute z-40 text-7xl text-white top-1/3 right-1/4 "/>
+            <MdCoffeeMaker className="iconsL absolute z-40 text-7xl text-white top-2/3 right-3/4 -rotate-12"/>
+            <GiCoffeeCup className="iconsR absolute z-40 text-7xl text-white top-2/3 right-1/4 -rotate-12"/>
+            <SiBuymeacoffee className="iconsL absolute z-40 text-7xl text-white top-1/3 right-3/4 rotate-12"/>
             {/* <p className="absolute bg-white circle z-20 rounded-full -right-72 -bottom-96"></p> */}
             {/* <p className="absolute bg-white circle z-20 rounded-full -left-72 -top-96"></p> */}
             <img src={main} alt="pic of the place" className="brightness-50 w-full h-screen object-cover z-10"/>
