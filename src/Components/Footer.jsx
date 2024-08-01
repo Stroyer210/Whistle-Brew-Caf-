@@ -22,7 +22,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/sergio-ardila-alvarado-550b40152/" target="_blank" rel="noreferrer">
               <AiFillLinkedin className="contact-shadow dark:text-gray-100 dark:hover:text-gray-900" />
             </a>
-            <a href="https://github.com/Stroyer210/Drunken-Duck" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Stroyer210/WhistleBrew-Cafe" target="_blank" rel="noreferrer">
               <AiFillGithub className="contact-shadow dark:text-gray-100 dark:hover:text-gray-900" />
             </a>
             <a href="https://www.facebook.com/sthiwar13" target="_blank" rel="noreferrer">
