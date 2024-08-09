@@ -4,6 +4,10 @@
     text-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
 
+.contact-shadow{
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+}
+
 .btn{
     font-family: "Titillium Web", sans-serif;
 }
